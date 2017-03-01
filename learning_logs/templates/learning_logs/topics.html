@@ -1,20 +1,23 @@
 {% extends "learning_logs/base.html" %}
+{% load bootstrap3 %}
 
-{% block title %}{{ block.super }} - Topics{% endblock %}
+{% block title %}{{ block.super }} - Topics{% endblock title %}
+
+{% block header %}
+    <h1>Topics:</h1>
+{% endblock header %}
 
 {% block content %}
-    <p>Topics</p>
-    {{ dave }}
     <ul>
         {% for topic in topics %}
             <li>
-                <a href="{% url 'learning_logs:topic' topic.id %}">{{ topic }}</a></br>
-                <a href="{% url 'learning_logs:topic_by_slug' topic.slug %}">{{ topic }} (by slug)</a>
+                <h3><a href="{% url 'learning_logs:topic_by_slug' topic.slug %}">{{ topic }}</a></h3>
             </li>
         {% empty %}
             <li>No topics added yet</li>
         {% endfor %}
     </ul>
-    <a href="{% url 'learning_logs:new_topic' %}">Add new topic</a>
+
+    <h3><a href="{% url 'learning_logs:new_topic' %}">Add new topic</a></h3>
 
 {% endblock content %}

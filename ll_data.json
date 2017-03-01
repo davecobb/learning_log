@@ -1,0 +1,192 @@
+[
+{
+  "model": "learning_logs.topic",
+  "pk": 1,
+  "fields": {
+    "text": "Chess",
+    "slug": "chess",
+    "date_added": "2017-02-09T08:23:29.412Z",
+    "owner": 1
+  }
+},
+{
+  "model": "learning_logs.topic",
+  "pk": 2,
+  "fields": {
+    "text": "Rock Climbing",
+    "slug": "rock-climb",
+    "date_added": "2017-02-09T08:24:13.353Z",
+    "owner": 1
+  }
+},
+{
+  "model": "learning_logs.topic",
+  "pk": 3,
+  "fields": {
+    "text": "Jeff",
+    "slug": "jeff",
+    "date_added": "2017-02-12T09:14:23.474Z",
+    "owner": 1
+  }
+},
+{
+  "model": "learning_logs.topic",
+  "pk": 4,
+  "fields": {
+    "text": "Raspberry Pi",
+    "slug": "raspberry-pi",
+    "date_added": "2017-02-19T14:46:15.667Z",
+    "owner": 1
+  }
+},
+{
+  "model": "learning_logs.topic",
+  "pk": 5,
+  "fields": {
+    "text": "great new raspberry pi thing",
+    "slug": "great-new-raspberry-pi-thing",
+    "date_added": "2017-02-19T15:05:13.297Z",
+    "owner": 1
+  }
+},
+{
+  "model": "learning_logs.topic",
+  "pk": 6,
+  "fields": {
+    "text": "A day in the life of a dev",
+    "slug": "a-day-in-the-life-of-a-dev",
+    "date_added": "2017-03-01T08:58:20.079Z",
+    "owner": 3
+  }
+},
+{
+  "model": "learning_logs.entry",
+  "pk": 1,
+  "fields": {
+    "topic": 1,
+    "text": "All the stuff about the game of chess, etc....\r\nAll the stuff about the game of chess, etc....\r\nAll the stuff about the game of chess, etc....\r\nAll the stuff about the game of chess, etc....\r\nAll the stuff about the game of chess, etc....\r\nAll the stuff about the game of chess, etc....\r\nAll the stuff about the game of chess, etc....\r\nAll the stuff about the game of chess, etc....",
+    "slug": "entry-slug",
+    "date_added": "2017-02-09T08:44:03.853Z"
+  }
+},
+{
+  "model": "learning_logs.entry",
+  "pk": 2,
+  "fields": {
+    "topic": 1,
+    "text": "Second entry for chess - go Gary!",
+    "slug": "entry-slug",
+    "date_added": "2017-02-09T08:45:44.706Z"
+  }
+},
+{
+  "model": "learning_logs.entry",
+  "pk": 3,
+  "fields": {
+    "topic": 2,
+    "text": "Stalone's epic story about hanging from a piece of rope.",
+    "slug": "entry-slug",
+    "date_added": "2017-02-09T08:46:30.977Z"
+  }
+},
+{
+  "model": "learning_logs.entry",
+  "pk": 4,
+  "fields": {
+    "topic": 3,
+    "text": "Jeff, what a man!",
+    "slug": "entry-slug",
+    "date_added": "2017-02-12T09:54:21.126Z"
+  }
+},
+{
+  "model": "learning_logs.entry",
+  "pk": 5,
+  "fields": {
+    "topic": 3,
+    "text": "Jeff, what a man!",
+    "slug": "entry-slug",
+    "date_added": "2017-02-12T09:54:51.599Z"
+  }
+},
+{
+  "model": "learning_logs.entry",
+  "pk": 6,
+  "fields": {
+    "topic": 3,
+    "text": "Jeff, what a man!",
+    "slug": "entry-slug",
+    "date_added": "2017-02-12T09:56:31.226Z"
+  }
+},
+{
+  "model": "learning_logs.entry",
+  "pk": 7,
+  "fields": {
+    "topic": 3,
+    "text": "bcvbbccb",
+    "slug": "entry-slug",
+    "date_added": "2017-02-12T09:56:44.314Z"
+  }
+},
+{
+  "model": "learning_logs.entry",
+  "pk": 8,
+  "fields": {
+    "topic": 1,
+    "text": "flump",
+    "slug": "entry-slug",
+    "date_added": "2017-02-12T10:03:54.919Z"
+  }
+},
+{
+  "model": "learning_logs.entry",
+  "pk": 9,
+  "fields": {
+    "topic": 1,
+    "text": "dave",
+    "slug": "entry-slug",
+    "date_added": "2017-02-12T10:05:20.580Z"
+  }
+},
+{
+  "model": "learning_logs.entry",
+  "pk": 10,
+  "fields": {
+    "topic": 3,
+    "text": "ghjghj",
+    "slug": "entry-slug",
+    "date_added": "2017-02-12T10:34:10.944Z"
+  }
+},
+{
+  "model": "learning_logs.entry",
+  "pk": 11,
+  "fields": {
+    "topic": 4,
+    "text": "How to detect motion using a raspberry pi",
+    "slug": "motion-detection",
+    "date_added": "2017-02-19T14:46:54.037Z"
+  }
+},
+{
+  "model": "learning_logs.entry",
+  "pk": 12,
+  "fields": {
+    "topic": 5,
+    "text": "Build an app to monitor pods",
+    "slug": "",
+    "date_added": "2017-02-25T10:01:17.717Z"
+  }
+},
+{
+  "model": "learning_logs.entry",
+  "pk": 13,
+  "fields": {
+    "topic": 6,
+    "text": "blah blah blahdi blah",
+    "slug": "",
+    "date_added": "2017-03-01T08:59:03.453Z"
+  }
+}
+]
